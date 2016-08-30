@@ -98,6 +98,12 @@ EXPOSE  8125/udp
 # StatsD Management port
 EXPOSE  8126
 
+# Carbon Plain
+EXPOSE 2003
+
+# Carbon pickle
+EXPOSE 2004
+
 # Graphite web port
 EXPOSE 81
 
